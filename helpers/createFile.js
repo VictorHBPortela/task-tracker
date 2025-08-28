@@ -1,9 +1,9 @@
 import fs from "fs";
 
-export const createFile = async (path, task) => {
+export const createFile = async (path, tasks) => {
     try {
-        fs.writeFileSync(path, task);
-        console.log("JSON file updated sucessfully.");
+        fs.writeFileSync(path, tasks);
+        console.log("Task updated successfully");
     } catch (error) {
         console.log("error in createFile: ", JSON.stringify(error));
     }
