@@ -1,6 +1,8 @@
 # Task Tracker CLI
 
-A simple and efficient command-line task management application built with Node.js. Track your tasks, update their status, and stay organized directly from your terminal.
+A project for studying purposes from https://roadmap.sh/ backend development roadmap
+
+A simple command-line task management application built with Node.js.
 
 ## Features
 
