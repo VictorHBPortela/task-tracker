@@ -1,6 +1,6 @@
 # Task Tracker CLI
 
-A project for studying purposes from https://roadmap.sh/ backend development roadmap
+A project for studying purposes from [https://roadmap.sh/](https://roadmap.sh/projects/task-tracker) backend development roadmap
 
 A simple command-line task management application built with Node.js.
 
