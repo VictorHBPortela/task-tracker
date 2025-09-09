@@ -6,14 +6,4 @@ export class TaskModel {
         this.createdAt = new Date();
         this.updatedAt = new Date();
     }
-
-    // updateDescription(description) {
-    //     this.description = description;
-    //     this.updatedAt = new Date();
-    // }
-
-    // updateStatus(status) {
-    //     this.status = status;
-    //     this.updatedAt = new Date();
-    // }
 }
