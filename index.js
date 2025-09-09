@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import path from "path";
 import { fileURLToPath } from "url";
 import { TaskRepository } from "./task-repository.js";

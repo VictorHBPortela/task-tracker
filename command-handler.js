@@ -34,15 +34,25 @@ export class CommandHandler {
                     await this.taskService.updateStatus(args.id, 'done');
                     break;
                 case 'help':
-                    console.log('Usage: node index.js <command> [arguments...]');
+                    console.log('Task Tracker CLI - Usage:');
+                    console.log('  task-cli <command> [arguments...]');
+                    console.log('  ./task-cli <command> [arguments...]');
+                    console.log('  ./index.js <command> [arguments...]');
+                    console.log('');
                     console.log('Available commands:');
-                    console.log('  add "description"');
-                    console.log('  update <id> "description"');
-                    console.log('  delete <id>');
-                    console.log('  mark-in-progress <id>');
-                    console.log('  mark-done <id>');
-                    console.log('  list [status]');
-                    process.exit(1);
+                    console.log('  add "description"              Add a new task');
+                    console.log('  update <id> "description"      Update an existing task');
+                    console.log('  delete <id>                    Delete a task');
+                    console.log('  mark-in-progress <id>          Mark task as in progress');
+                    console.log('  mark-done <id>                 Mark task as done');
+                    console.log('  list [status]                  List all tasks or by status');
+                    console.log('');
+                    console.log('Examples:');
+                    console.log('  task-cli add "Buy groceries"');
+                    console.log('  task-cli update 1 "Buy groceries and cook dinner"');
+                    console.log('  task-cli mark-done 1');
+                    console.log('  task-cli list done');
+                    break;
                 default:
                     console.log('Unknown command');
             }

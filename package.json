@@ -1,14 +1,22 @@
 {
   "name": "task-tracker",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple task tracker CLI application",
   "main": "index.js",
+  "bin": {
+    "task-cli": "./index.js"
+  },
   "scripts": {
     "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "cli",
+    "task",
+    "tracker",
+    "todo"
+  ],
+  "author": "Victor Hugo Barros Portela",
   "license": "ISC",
   "dependencies": {
     "nodemon": "^3.1.10"
